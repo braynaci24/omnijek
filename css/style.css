@@ -28,14 +28,14 @@ body {
     margin: 0 0 0 150px;
 }
 .baslik {
-    float: right;
     font-weight: 700;
     font-size: 50px;
     color: #161A49; 
+    margin: 0 0 60px 0;
 }
 .metin {
-    float: right;
     color: #727B90;
+    margin: 0 0 47px 0;
 }
 .ana-foto {
     width: 400px;
@@ -47,12 +47,13 @@ body {
 }
 .link {
     text-decoration: none;
-    float: left;
     display: block;
     background: #6FBF44;
     line-height: 35px;
     color: white;
     border-radius: 6px;
+    width: 190px;
+    text-align: center;
     
 }
 
