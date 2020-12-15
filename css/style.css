@@ -1,6 +1,8 @@
+
 .header {
     overflow: hidden;
     margin: 0px 90px 0px 90px;
+    height: 55px;
 }
 .logo {
     float: left;
@@ -15,6 +17,7 @@
     float: right;
     list-style-type: none;
     margin: 10px 60px 0px 0px;
+    font-family: 'Poppins';
 }
 .li a{
     text-decoration: none;
@@ -37,10 +40,9 @@
 .metin {
     float: right;
     color: #727B90;
-
     margin: 20px 0px 0px 110px;
     padding: 0px 80px 0px 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins';
 }
 .ana-foto {
     width: 400px;
@@ -59,4 +61,9 @@
     color: white;
     border-radius: 6px;
     padding: 3px 20px 3px 20px;
+}
+.giris {
+    background: #6FBF44;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
 }
