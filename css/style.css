@@ -1,4 +1,4 @@
-meler body {
+body {
     font-family: 'Poppins', sans-serif;
     background:  url("../icon/path.png") left bottom no-repeat;
 }
@@ -21,14 +21,14 @@ meler body {
     margin: 0px 36px 0px 0px;
 }
 .left-block {
-    width: 53%;
+    width: 40%;
     height: 100%;
     overflow: hidden;
     float: left;
+    margin: 0 0 0 150px;
 }
 .baslik {
     float: right;
-    margin: 0px 0px 0px 150px;
     font-weight: 700;
     font-size: 50px;
     color: #161A49; 
@@ -36,8 +36,6 @@ meler body {
 .metin {
     float: right;
     color: #727B90;
-    margin: 20px 0px 0px 110px;
-    padding: 0px 80px 0px 40px;
 }
 .ana-foto {
     width: 400px;
@@ -49,13 +47,13 @@ meler body {
 }
 .link {
     text-decoration: none;
-    float: right;
-    margin: 44px 334px 0px 0px;
+    float: left;
+    display: block;
     background: #6FBF44;
     line-height: 35px;
     color: white;
     border-radius: 6px;
-    padding: 3px 20px 3px 20px;
+    
 }
 
 .liste-eleman a {
