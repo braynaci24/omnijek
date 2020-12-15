@@ -1,11 +1,10 @@
-body {
+meler body {
     font-family: 'Poppins', sans-serif;
     background:  url("../icon/path.png") left bottom no-repeat;
 }
 .header {
     overflow: hidden;
     margin: 0px 90px 0px 90px;
-    height: 55px;
 }
 .logo {
     float: left;
@@ -17,9 +16,9 @@ body {
     float: right;
 }
 .liste-eleman {
-    float: right;
+    float: left;
     list-style-type: none;
-    margin: 10px 60px 0px 0px;
+    margin: 0px 36px 0px 0px;
 }
 .left-block {
     width: 53%;
@@ -63,20 +62,26 @@ body {
     text-decoration: none;
     color: #17233D;
     font-size: 14px;
+    line-height: 47px;
 }
 
 .giris {
     background: #6FBF44;
     border-radius: 6px;
-    padding: 5px 10px 5px 10px;
+    padding: 0px 28px;
     color: #FFFFFF !important;
     text-decoration: none;
+    display: block;
 }
 .header ul {
     overflow: hidden;
-    height: 40px;
 }
 .main {
     overflow: hidden;
     margin-top: 200px;
+}
+.menu {
+    margin: 0px;
+    float: right;
+    margin: 15px 0px 0px 0px;
 }
